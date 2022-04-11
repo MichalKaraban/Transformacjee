@@ -229,7 +229,7 @@ class Transformacje:
         
         Returns:
         -------
-        delta_neu : [array of float64] : współrzedne topocentryczne (North , East (E), Up (U))
+        NEU : [array of float64] : współrzedne topocentryczne (North , East (E), Up (U))
     
         """
         NEU=np.zeros(v.shape)
@@ -347,7 +347,7 @@ class Transformacje:
     """ Wyznaczenie kąta elewacji """
     def Kąt_Elewacji(self, N, E, U):
         """   
-        Funkcja wyznacza kąt kąt elewacji na podstawie współrzędnych topocentrycznych
+        Funkcja wyznacza kąt elewacji na podstawie współrzędnych topocentrycznych
         
         Parameters
         -------
